@@ -1,12 +1,137 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello World!</title>
+    
+    <title>What Japanese Mascot Are You?</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet"> 
+    
   </head>
   <body>
+    <div class="title">
+      <h1>What Japanese Mascot Are You?</h1><br>
+        <h3>どのような日本のマスコット<br>ですか？</h3><br>
+        <h4>Click me to begin! &#8594</h4>
+      
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fupscale-241529982018212.png?1525798314514" class="firstbutton">
+    </div>
+    
+    <div class="question" id="q1">
+      <h2>
+        What is your favorite time of day?
+      </h2>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fmorning.png?1525786714822" class="button a1 tl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fday.png?1525786705856" class="button a1 tr"><br>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fafternoon.png?1525786705216" class="button a1 bl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fnight.png?1525786714724" class="button a1 br">
+    </div>
+    
+    <div class="question" id="q2">
+      <h2>
+        What's your favorite pet?
+      </h2>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fdog.png?1525786705958" class="button a2 tl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fcat.png?1525786705444" class="button a2 tr"><br>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fbird.png?1525786705606" class="button a2 bl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Ffish.png?1525786706054" class="button a2 br">
+    </div>
+    
+    <div class="question" id="q3">
+      <h2>
+        Which food sounds good to you right now?
+      </h2>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fsushi.png?1525786715380" class="button a3 tl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fpizza.png?1525786714636" class="button a3 tr"><br>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fpancakes.png?1525786714912" class="button a3 bl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fsalad.png?1525786715456" class="button a3 br">
+    </div>
+    
+    <div class="question" id="q4">
+      <h2>
+        What place would you rather be at?
+      </h2>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fcity.png?1525786705750" class="button a4 tl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fjungle.png?1525786714156" class="button a4 tr"><br>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fbeach.png?1525786705334" class="button a4 bl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fmountains.png?1525786714370" class="button a4 br">
+    </div>
+    
+    <div class="question" id="q5">
+      <h2>
+        What instrument would you rather play?
+      </h2>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fsing.png?1525786715262" class="button a5 tl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fdrums.png?1525786706126" class="button a5 tr"><br>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fguitar.png?1525786706222" class="button a5 bl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fpiano.png?1525786714506" class="button a5 br">
+    </div>
+    
+    <div class="question" id="q6">
+      <h2>
+        What is your favorite ice-cream flavor?
+      </h2>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fchocolate.png?1525786705528" class="button a6 tl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fstrawberry.png?1525786715174" class="button a6 tr"><br>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fvanilla.png?1525786715080" class="button a6 bl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fmint.png?1525786714000" class="button a6 br">
+    </div>
+    
+    <div class="question" id="q7">
+      <h2>
+        How do you like your eggs done?
+      </h2>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fsunny-side.png?1525976279228" class="lastbutton tl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fscrambled.png?1525976277334" class="lastbutton tr"><br>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fhard-boiled.png?1525976281698" class="lastbutton bl">
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fomelette.png?1525976275714" class="lastbutton br">
+    </div>
+    
+    <div class="empty"></div>
+    
+    <div class="answer" id="one">
+      <h1>
+        You are Kumamon!<br>
+        くまモンです！<br>
+      </h1>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2FKumamon_Surprise.png?1525984527948" class="home">
+    </div>
+    
+    <div class="answer" id="two">
+      <h1>
+        You are Hikonyan!<br>
+        ひこにゃんです！<br>
+      </h1>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fro6950-18392.png?1525984530140" class="home">
+    </div>
+    
+    <div class="answer" id="three">
+      <h1>
+        You are Domo-kun!<br>
+        どーも くんです！<br>
+      </h1>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2FDomo_Kun_Stickers_1868.png?1525984528684" class="home">
+    </div>
+    
+    <div class="answer" id="four">
+      <h1>
+        You are Gudetmama!<br>
+        ぐでたまです！<br>
+      </h1>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2F997c901be018004a07d66ae4920fd3a6.png?1525984529556" class="home">
+    </div>
+    
+    <div class="answer" id="five">
+      <h1>
+        You are Barii-san!<br>
+        ばりい さんです！<br>
+      </h1>
+      <img src="https://cdn.glitch.com/25328592-8e6e-4637-bd1f-b1d656f1a486%2Fc3891d77795a4eca930134ad90f34ab9.png?1525984529114" class="home">
+    </div>
+    
+    <div class="dim"></div>
+    
     
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="/script.js"></script>
